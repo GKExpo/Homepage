@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.K. Expo - Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a1a2e, #16213e, #0f3460);
+            color: #f0f0f0;
+        }
+        header {
+            background: linear-gradient(to right, #0f3460, #16213e);
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #16213e, #1a1a2e);
+            padding: 10px;
+            position: relative;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .dropdown {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .dropdown a {
+            display: flex;
+            align-items: center;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: linear-gradient(to right, #16213e, #1a1a2e);
+            min-width: 200px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            top: 100%;
+            left: 0;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #0f3460, #53354a);
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to right, #53354a, #b76e79);
+            color: #fff;
+        }
+        .link-block {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-image: url('https://assets.onecompiler.app/436mej4wy/43b4bhg85/Idea%20Block.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            height: 120px;
+        }
+        .link-block a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff4d6d;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .link-block a:hover {
+            background: #ff1e40;
+        }
+        footer {
+            background: linear-gradient(to right, #1a1a2e, #16213e);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>G.K. Expo</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">Our Projects ▼</a>
+            <div class="dropdown-content">
+                <a href="https://gkexpo.github.io/S.M.Technology/">S.M. Technology</a>
+                <a href="https://gkexpo.github.io/GC-registration-Form/">GC Registration Form</a>
+                <a href="#">Virtual Business Card</a>
+                <a href="#">Survey Form</a>
+                <a href="#">And Many More...</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <h2>Turn Your Imagination Into Reality</h2>
+    </section>
+    <section class="content">
+        <h3>Welcome to G.K. Expo</h3>
+        <p>G.K. Expo is a platform where creativity meets innovation. We provide a space for artists, engineers, and visionaries to showcase their projects and turn ideas into reality.</p>
+        <p>Join us in our journey of exploring new possibilities and making the impossible happen.</p>
+    </section>
+    <section class="link-block">
+        
+        <a href="https://gkexpo.github.io/Project/" target="_blank">
+          <p>Have an idea? We'd love to hear from you!</p>
+          Click Here to Share Your Ideas</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 G.K. Expo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
